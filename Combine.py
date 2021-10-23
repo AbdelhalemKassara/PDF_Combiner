@@ -22,6 +22,9 @@ for i in range(0, len(pdfs)):
 
 #sorts the numbers
 for lI in range(1, len(numbers)):
+#change the loop below so that instead of checking all already sorted elements
+#it repeatedly splits the sorted portion of the array in half until there is a 
+#blI less than or equal to and a blI + 1 greater or equal to.
     for blI in range(lI-1, -1, -1):
         if numbers[blI + 1][0] < numbers[blI][0]:
             holder = numbers[blI + 1]
