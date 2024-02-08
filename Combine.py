@@ -41,7 +41,7 @@ print("Sorted: ")
 print(doc)
 
 for x in range(len(doc)):
-    doc[x] = 'files\\' + doc[x]
+    doc[x] = 'files/' + doc[x]
 
 merger = PdfFileMerger()
 
